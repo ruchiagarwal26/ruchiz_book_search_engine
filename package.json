@@ -1,0 +1,22 @@
+{
+  "name": "book-search-engine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
+    "install": "cd server && npm i && cd ../client && npm i",
+    "build": "cd client && npm run build"
+  },
+  "keywords": [],
+  "author": "RA",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^5.2.0"
+  },
+  "dependencies": {
+    "graphql": "^15.0.0",
+    "react-scripts": "^5.0.1"
+  }
+}
