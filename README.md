@@ -4,7 +4,7 @@
 
 ## Deployed application Link :
 
-## Your Task
+## Project Overview:
 
 This project is a Book Search engine that is a GraphQL API built with Apollo Server. The app was built using the MERN stack with a React front end, MongoDB database, and Node.js/Express.js server and API.
 
