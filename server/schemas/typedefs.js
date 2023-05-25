@@ -1,5 +1,5 @@
 const { gql } = require('apollo-server-express');
-
+//what you do not want user to see
 const typeDefs = gql`
   type User {
     _id: ID
@@ -10,19 +10,9 @@ const typeDefs = gql`
   }
 
   type Book {
-    _id: ID!
-    bookId: String
+    bookId: ID!
     authors: [String]
-    desription: String
-    image: String
-    link: String
-    title: String
-  }
-
-  input savedBook {
-    bookId: String
-    authors: [String]
-    desription: String
+    description: String
     image: String
     link: String
     title: String
@@ -33,6 +23,15 @@ const typeDefs = gql`
     user: User
   }
 
+  input BookInput {
+    bookId: String!
+    authors: [String]
+    description: String
+    image: String
+    link: String
+    title: String
+  }
+
   type Query {
     me: User
   }
@@ -40,7 +39,7 @@ const typeDefs = gql`
   type Mutation {
     addUser(username: String!, email: String!, password: String!): Auth
     login(email: String!, password: String!): Auth
-    saveBook(input: savedBook!): User
+    saveBook(bookData: BookInput!): User
     removeBook(bookId: ID!): User
   }
 `;
