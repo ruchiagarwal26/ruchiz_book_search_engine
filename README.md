@@ -40,9 +40,15 @@ Below are the functionalities:
 
 ![image](https://github.com/ruchiagarwal26/ruchiz_book_search_engine/assets/115508901/65f01428-60fa-4d9c-ba5d-ed2f464b6e5f)
 
+![image](https://github.com/ruchiagarwal26/ruchiz_book_search_engine/assets/115508901/dd571772-ae9f-446d-b25a-1882d1cb5de3)
+
+
  * the saved books can be retrieved with clicking on see saved books
 
 ![image](https://github.com/ruchiagarwal26/ruchiz_book_search_engine/assets/115508901/f0647911-be9b-40a0-8b6e-b9966be90056)
+
+![image](https://github.com/ruchiagarwal26/ruchiz_book_search_engine/assets/115508901/da204bd2-5d7c-4a1f-8fd2-50234dd7ab64)
+
 
  * further by clicking on `Delete this book` toggle, any of the saved book can be deleted
 
