@@ -1,8 +1,8 @@
 # 21 MERN: Book Search Engine
 
-## github link :
+## github link : https://github.com/ruchiagarwal26/ruchiz_book_search_engine
 
-## Deployed application Link :
+## Deployed application Link : https://floating-springs-05221.herokuapp.com/
 
 ## Project Overview:
 
